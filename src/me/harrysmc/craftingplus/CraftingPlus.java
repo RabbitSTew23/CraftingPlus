@@ -11,7 +11,8 @@ import java.util.logging.Logger;
 
 public class CraftingPlus extends JavaPlugin {
 
-    Logger log = Bukkit.getLogger();
+    Logger log = getLogger();
+
     @Override
     public void onEnable(){
     }
