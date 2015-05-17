@@ -14,10 +14,7 @@ import java.util.logging.Logger;
 
 public class CraftingPlus extends JavaPlugin {
 
-    private static CraftingPlus instance;
-    private Logger log = getLogger();
-
-    public static CraftingPlus getInstance(){ return instance; }
+    //No
 
     @Override
     public void onEnable(){
