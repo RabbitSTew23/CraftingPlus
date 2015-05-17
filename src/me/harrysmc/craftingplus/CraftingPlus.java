@@ -33,6 +33,7 @@ public class CraftingPlus extends JavaPlugin {
     @Override
     public void onDisable(){
         Bukkit.getServer().clearRecipes();
+        log.info("Recipes cleared.");
     }
 
 }
