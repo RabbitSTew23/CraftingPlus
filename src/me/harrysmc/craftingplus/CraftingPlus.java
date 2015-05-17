@@ -13,6 +13,7 @@ public class CraftingPlus extends JavaPlugin {
 
     Logger log = getLogger();
 
+    //Everyting is a test
     @Override
     public void onEnable(){
     }
