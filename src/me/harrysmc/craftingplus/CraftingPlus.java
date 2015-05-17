@@ -14,12 +14,10 @@ public class CraftingPlus extends JavaPlugin {
     Logger log = Bukkit.getLogger();
     @Override
     public void onEnable(){
-        log.info("Crafting recipes set up.");
     }
 
     @Override
     public void onDisable(){
-        log.info("Crafting recipes disabled.");
     }
 
 }
